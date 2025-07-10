@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brunno Pereira - Data Analyst</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="container">
+            <div class="logo">Brunno Pereira</div>
+            <ul class="nav-links">
+                <li><a href="#home">Início</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#projects">Projetos</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+            <div class="mobile-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Olá, eu sou Brunno 👋</h1>
+                <p class="subtitle">Data Analyst | Business Intelligence</p>
+                <p class="description">
+                    Transformo dados complexos em insights estratégicos que impulsionam decisões executivas. 
+                    Especialista em Power BI, SQL e Python com 2+ anos criando soluções que geram valor real para o negócio.
+                </p>
+                <div class="cta-buttons">
+                    <a href="#projects" class="btn btn-primary">
+                        <i class="fas fa-chart-bar"></i> Ver Projetos
+                    </a>
+                    <a href="#contact" class="btn btn-secondary">
+                        <i class="fas fa-envelope"></i> Entrar em Contato
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">Sobre Mim</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <div style="width: 300px; height: 300px; background: linear-gradient(45deg, #667eea, #764ba2); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-size: 4rem; margin: 0 auto;">
+                        <i class="fas fa-user"></i>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <h3>Data Analyst apaixonado por resultados</h3>
+                    <p>
+                        Com formação em <strong>Análise e Desenvolvimento de Sistemas</strong> e experiência prática no 
+                        <strong>Ministério do Meio Ambiente</strong> e <strong>Basis Tecnologia</strong>, desenvolvo soluções 
+                        de Business Intelligence que transformam dados em vantagem competitiva.
+                    </p>
+                    <p>
+                        Especialista em extrair insights de datasets complexos e criar dashboards executivos que 
+                        <strong>reduzem custos operacionais</strong> e <strong>aceleram processos de negócio</strong>. 
+                        Experiência multissetorial: governamental, tecnologia e saúde.
+                    </p>
+                    <p>
+                        <strong>Minha missão:</strong> Democratizar o acesso aos dados através de visualizações 
+                        intuitivas que qualquer stakeholder pode usar para tomar decisões estratégicas.
+                    </p>
+                </div>
+            </div>
+            
+            <div class="stats">
+                <div class="stat">
+                    <span class="stat-number">4</span>
+                    <span>Projetos em Produção</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">1M+</span>
+                    <span>Registros Processados</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">500+</span>
+                    <span>Usuários Ativos</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">95%</span>
+                    <span>Taxa de Aprovação</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Meus Projetos</h2>
+            
+            <div class="project-filters">
+                <button class="filter-btn active" data-filter="all">Todos</button>
+                <button class="filter-btn" data-filter="government">Governo</button>
+                <button class="filter-btn" data-filter="health">Saúde</button>
+                <button class="filter-btn" data-filter="environment">Meio Ambiente</button>
+                <button class="filter-btn" data-filter="python">Python</button>
+            </div>
+
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card" data-category="government environment">
+                    <div class="project-image">
+                        <i class="fas fa-leaf" style="font-size: 3rem;"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Dashboard Bolsa Verde</h3>
+                        <p class="project-description">
+                            Sistema de monitoramento de programa socioambiental com interface responsiva e prototipagem UX/UI. 
+                            Resultou em 95% de aprovação pelos gestores e 60% de redução no tempo de análise.
+                        </p>
+                        <div class="technical-details" style="background: #f8f9ff; padding: 1rem; border-radius: 8px; margin: 1rem 0; border-left: 4px solid #667eea;">
+                            <h4 style="color: #667eea; margin-bottom: 0.5rem;"><i class="fas fa-cogs"></i> Metodologia Aplicada:</h4>
+                            <ul style="margin: 0; padding-left: 1.2rem;">
+                                <li>ETL automatizado processando <strong>50k+ registros diários</strong></li>
+                                <li>Modelagem Star Schema para otimização de consultas</li>
+                                <li>DAX Time Intelligence para análises temporais</li>
+                                <li>Prototipagem UX/UI no Figma antes da implementação</li>
+                                <li>Design responsivo (desktop/mobile) com 99.9% uptime</li>
+                            </ul>
+                            <div style="margin-top: 0.8rem; font-size: 0.9rem; color: #666;">
+                                <strong>Performance:</strong> Consultas executam em <3s | <strong>Usuários:</strong> 500+ simultâneos | <strong>Disponibilidade:</strong> 24/7
+                            </div>
+                        </div>
+                        <div class="project-tags">
+                            <span class="tag">Power BI</span>
+                            <span class="tag">PostgreSQL</span>
+                            <span class="tag">Figma</span>
+                            <span class="tag">UX/UI</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://app.powerbi.com/view?r=eyJrIjoiNzlmNDU1NjUtZDVhYy00MmVjLThhZjEtZTkzYzI3OTU3N2Q5IiwidCI6IjM5NTdhMzY3LTZkMzgtNGMxZi1hNGJhLTMzZThmM2M1NTBlNyJ9" 
+                               target="_blank" class="project-link link-primary">
+                                <i class="fas fa-external-link-alt"></i> Ver Dashboard
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card" data-category="health">
+                    <div class="project-image">
+                        <i class="fas fa-hospital" style="font-size: 3rem;"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Dashboard UPA</h3>
+                        <p class="project-description">
+                            Sistema de análise para Unidade de Pronto Atendimento, categorizando fluxo de pacientes por urgência médica. 
+                            Otimizou alocação de recursos e melhorou tempo de resposta no atendimento.
+                        </p>
+                        <div class="technical-details" style="background: #f8f9ff; padding: 1rem; border-radius: 8px; margin: 1rem 0; border-left: 4px solid #DC143C;">
+                            <h4 style="color: #DC143C; margin-bottom: 0.5rem;"><i class="fas fa-heartbeat"></i> Case Study Detalhado:</h4>
+                            <ul style="margin: 0; padding-left: 1.2rem;">
+                                <li><strong>Problema:</strong> Gargalos no atendimento com filas de 2h+ em emergências</li>
+                                <li><strong>Solução:</strong> Análise estatística de padrões de atendimento por urgência</li>
+                                <li><strong>Tecnologia:</strong> DAX avançado para categorização automática</li>
+                                <li><strong>Machine Learning:</strong> Algoritmo básico para previsão de demanda</li>
+                                <li><strong>Integração:</strong> API REST para dados em tempo real</li>
+                            </ul>
+                            <div style="margin-top: 0.8rem; font-size: 0.9rem; color: #666;">
+                                <strong>Impacto:</strong> 35% redução no tempo de espera | <strong>ROI:</strong> R$ 200k economizados/ano | <strong>Vidas:</strong> Atendimento mais eficaz
+                            </div>
+                        </div>
+                        <div class="project-tags">
+                            <span class="tag">Power BI</span>
+                            <span class="tag">DAX</span>
+                            <span class="tag">Análise Estatística</span>
+                            <span class="tag">Saúde</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://app.powerbi.com/view?r=eyJrIjoiZjliZmJmZjAtYWUxOC00N2QyLTk0YmYtOTM3MDExMmVkYTk4IiwidCI6IjM5NTdhMzY3LTZkMzgtNGMxZi1hNGJhLTMzZThmM2M1NTBlNyJ9" 
+                               target="_blank" class="project-link link-primary">
+                                <i class="fas fa-external-link-alt"></i> Ver Dashboard
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 - Dashboard MTR com DOIS BOTÕES -->
+                <div class="project-card" data-category="government environment">
+                    <div class="project-image">
+                        <i class="fas fa-recycle" style="font-size: 3rem;"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Dashboard MTR</h3>
+                        <p class="project-description">
+                            Sistema de análise para SINIR (Sistema Nacional de Informações sobre Gestão de Resíduos Sólidos) 
+                            em conformidade com diretrizes do MMA. Monitoramento de resíduos em escala nacional.
+                        </p>
+                        <div class="technical-details" style="background: #f8f9ff; padding: 1rem; border-radius: 8px; margin: 1rem 0; border-left: 4px solid #228B22;">
+                            <h4 style="color: #228B22; margin-bottom: 0.5rem;"><i class="fas fa-database"></i> Arquitetura de Dados:</h4>
+                            <ul style="margin: 0; padding-left: 1.2rem;">
+                                <li>PostgreSQL com <strong>1M+ registros</strong> de movimentações</li>
+                                <li>Stored Procedures para processamento batch noturno</li>
+                                <li>Índices otimizados reduzindo consultas de 45s para 3s</li>
+                                <li>Views materializadas para agregações complexas</li>
+                                <li>Backup automatizado e recuperação de desastres</li>
+                            </ul>
+                            <div style="margin-top: 0.8rem; font-size: 0.9rem; color: #666;">
+                                <strong>Escala:</strong> Nacional (26 estados + DF) | <strong>Compliance:</strong> 100% MMA | <strong>Auditoria:</strong> Trilhas completas
+                            </div>
+                        </div>
+                        <div class="project-tags">
+                            <span class="tag">Power BI</span>
+                            <span class="tag">PostgreSQL</span>
+                            <span class="tag">Compliance</span>
+                            <span class="tag">SINIR</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://app.powerbi.com/view?r=eyJrIjoiYWJmNzQxZmItNjVkYy00ZmUwLWJlOTEtMjYyZTY1ZmNmYTk1IiwidCI6IjM5NTdhMzY3LTZkMzgtNGMxZi1hNGJhLTMzZThmM2M1NTBlNyJ9" 
+                               target="_blank" class="project-link link-primary">
+                                <i class="fas fa-external-link-alt"></i> Ver Dashboard
+                            </a>
+                            <a href="https://dashboard-app-wxs9q7qq6vjq5ftmewcxjj.streamlit.app/" 
+                               target="_blank" class="project-link link-secondary"
+                               title="Versão teste em Streamlit - Dados fictícios de planilha Excel para demonstração">
+                                <i class="fab fa-python"></i> Versão Streamlit
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4 - Dashboard Streamlit -->
+                <div class="project-card" data-category="python analytics">
+                    <div class="project-image">
+                        <i class="fas fa-chart-line" style="font-size: 3rem;"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Dashboard Interativo de Vendas</h3>
+                        <p class="project-description">
+                            Aplicação web desenvolvida em Python/Streamlit para análise interativa de dados de vendas. 
+                            Sistema completo com visualizações dinâmicas, KPIs em tempo real e interface responsiva.
+                        </p>
+                        <div class="technical-details" style="background: #f8f9ff; padding: 1rem; border-radius: 8px; margin: 1rem 0; border-left: 4px solid #FF6B6B;">
+                            <h4 style="color: #FF6B6B; margin-bottom: 0.5rem;"><i class="fas fa-code"></i> Desenvolvimento Full-Stack:</h4>
+                            <ul style="margin: 0; padding-left: 1.2rem;">
+                                <li><strong>Frontend:</strong> Streamlit com interface interativa e responsiva</li>
+                                <li><strong>Backend:</strong> Python com Pandas para processamento de dados</li>
+                                <li><strong>Visualização:</strong> Plotly para gráficos dinâmicos e interativos</li>
+                                <li><strong>Deploy:</strong> Streamlit Cloud com CI/CD automático via GitHub</li>
+                                <li><strong>Análise:</strong> KPIs de vendas, tendências e performance</li>
+                            </ul>
+                            <div style="margin-top: 0.8rem; font-size: 0.9rem; color: #666;">
+                                <strong>Performance:</strong> Carregamento <2s | <strong>Hosting:</strong> Cloud gratuito | <strong>Updates:</strong> Automáticos via Git
+                            </div>
+                        </div>
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">Streamlit</span>
+                            <span class="tag">Plotly</span>
+                            <span class="tag">Pandas</span>
+                            <span class="tag">Data Analysis</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://data-portfolio-bwtwuwvrddeuxhj65zaswp.streamlit.app/" 
+                               target="_blank" class="project-link link-primary">
+                                <i class="fas fa-external-link-alt"></i> Ver Dashboard
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 5 - Roteirizador Logístico -->
+                <div class="project-card" data-category="python logistics streamlit">
+                    <div class="project-image">
+                        <i class="fas fa-route" style="font-size: 3rem;"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Roteirizador Logístico</h3>
+                        <p class="project-description">
+                            Aplicação web para otimização de rotas logísticas, desenvolvida em Python e Streamlit. Permite calcular rotas eficientes para entregas, reduzindo custos e tempo de deslocamento. Ideal para empresas de logística e transporte.
+                        </p>
+                        <div class="technical-details" style="background: #f8f9ff; padding: 1rem; border-radius: 8px; margin: 1rem 0; border-left: 4px solid #007bff;">
+                            <h4 style="color: #007bff; margin-bottom: 0.5rem;"><i class="fas fa-truck"></i> Funcionalidades:</h4>
+                            <ul style="margin: 0; padding-left: 1.2rem;">
+                                <li>Importação de planilhas de endereços</li>
+                                <li>Visualização de rotas otimizadas em mapa</li>
+                                <li>Algoritmo de roteirização para múltiplos destinos</li>
+                                <li>Interface intuitiva e responsiva</li>
+                                <li>Exportação dos resultados</li>
+                            </ul>
+                            <div style="margin-top: 0.8rem; font-size: 0.9rem; color: #666;">
+                                <strong>Tecnologias:</strong> Python, Streamlit, geopy, folium | <strong>Benefício:</strong> Redução de custos logísticos
+                            </div>
+                        </div>
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">Streamlit</span>
+                            <span class="tag">Logística</span>
+                            <span class="tag">Otimização</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://roterizador-2nyfpmckzgxtkg3e7gqstx.streamlit.app/" 
+                               target="_blank" class="project-link link-primary">
+                                <i class="fas fa-external-link-alt"></i> Ver Aplicação
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Competências Técnicas</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3><i class="fas fa-chart-bar"></i> Business Intelligence</h3>
+                    <div class="skill-icons">
+                        <span title="Power BI"><i class="fas fa-chart-bar"></i></span>
+                        <span title="DAX"><i class="fas fa-calculator"></i></span>
+                        <span title="Power Query"><i class="fas fa-bolt"></i></span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-database"></i> Bancos de Dados</h3>
+                    <div class="skill-icons">
+                        <span title="PostgreSQL"><i class="fas fa-database"></i></span>
+                        <span title="SQL Server"><i class="fas fa-server"></i></span>
+                        <span title="Data Modeling"><i class="fas fa-project-diagram"></i></span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-code"></i> Programação</h3>
+                    <div class="skill-icons">
+                        <span title="Python"><i class="fab fa-python"></i></span>
+                        <span title="Pandas"><i class="fas fa-table"></i></span>
+                        <span title="Streamlit"><i class="fas fa-chart-line"></i></span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-brain"></i> Data Science & ML</h3>
+                    <div class="skill-icons">
+                        <span title="Machine Learning"><i class="fas fa-robot"></i></span>
+                        <span title="Scikit-learn"><i class="fas fa-brain"></i></span>
+                        <span title="Time Series Analysis"><i class="fas fa-chart-area"></i></span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-tools"></i> Ferramentas & DevOps</h3>
+                    <div class="skill-icons">
+                        <span title="Git/GitHub"><i class="fab fa-github"></i></span>
+                        <span title="Docker"><i class="fab fa-docker"></i></span>
+                        <span title="AWS/Azure"><i class="fab fa-aws"></i></span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- GitHub Section -->
+            <div style="text-align: center; margin-top: 3rem; padding: 2rem; background: #f8f9ff; border-radius: 15px;">
+                <h3 style="color: #667eea; margin-bottom: 1rem;"><i class="fab fa-github"></i> Explore Meu Código</h3>
+                <p style="margin-bottom: 2rem; color: #666;">
+                    Confira meus repositórios no GitHub com projetos de Data Science, ETL e automação.
+                </p>
+                
+                <a href="https://github.com/brunnogod/data-portfolio" target="_blank" class="btn btn-secondary">
+                    <i class="fas fa-folder-open"></i> Portfolio Repository
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section Profissional -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Entre em Contato</h2>
+            <p class="contact-subtitle">
+                Vamos conversar sobre oportunidades de Data Analytics e Business Intelligence
+            </p>
+            
+            <div class="contact-content">
+                <!-- Informações de Contato -->
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Email Profissional</h4>
+                                <a href="mailto:brunnop407@gmail.com">brunnop407@gmail.com</a>
+                                <span class="response-time">Resposta em até 24h</span>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fab fa-linkedin"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>LinkedIn</h4>
+                                <a href="https://www.linkedin.com/in/brunno-pereira-22a3771bb" target="_blank">
+                                    /in/brunno-pereira
+                                </a>
+                                <span class="response-time">Rede profissional</span>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Telefone</h4>
+                                <a href="tel:+5561996798513">(61) 99679-8513</a>
+                                <span class="response-time">WhatsApp disponível</span>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Localização</h4>
+                                <span>Brasília - DF, Brasil</span>
+                                <span class="response-time">Remoto ou presencial</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Links Rápidos -->
+                    <div class="quick-links">
+                        <h4>Links Rápidos</h4>
+                        <div class="quick-link-buttons">
+                            <a href="https://github.com/brunnogod" target="_blank" class="quick-btn">
+                                <i class="fab fa-github"></i>
+                                <span>GitHub</span>
+                            </a>
+                           
+                          
+                            <a href="Curriculum.pdf" class="quick-btn" download>
+                                <i class="fas fa-file-pdf"></i>
+                                <span>Currículo</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Formulário de Contato -->
+                <div class="contact-form-container">
+                    <div class="contact-form">
+                        <h3>Envie uma Mensagem</h3>
+                        <p class="form-description">
+                            Interessado em contratar um Data Analyst? Vamos discutir seu projeto!
+                        </p>
+                        
+                        <form class="professional-form">
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="firstName">Nome*</label>
+                                    <input type="text" id="firstName" name="firstName" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="lastName">Sobrenome*</label>
+                                    <input type="text" id="lastName" name="lastName" required>
+                                </div>
+                            </div>
+
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="email">Email*</label>
+                                    <input type="email" id="email" name="email" required>
+                                </div>
+                                
+                            </div>
+
+                            <div class="form-group">
+                                <label for="subject">Tipo de Projeto*</label>
+                                <select id="subject" name="subject" required>
+                                    <option value="">Selecione o tipo de projeto</option>
+                                    <option value="dashboard">Dashboard Power BI</option>
+                                    <option value="analytics">Análise de Dados</option>
+                                    <option value="automation">Automação Python</option>
+                                    <option value="streamlit">Aplicação Streamlit</option>
+                                    <option value="consultation">Consultoria BI</option>
+                                    <option value="other">Outro</option>
+                                </select>
+                            </div>
+
+                            
+
+                            <div class="form-group">
+                                <label for="message">Descreva seu Projeto*</label>
+                                <textarea id="message" name="message" required 
+                                    placeholder="Conte-me sobre seus dados, objetivos e desafios que gostaria de resolver..."></textarea>
+                            </div>
+
+                            <button type="submit" class="btn-submit">
+                                <i class="fas fa-paper-plane"></i>
+                                Enviar Proposta
+                            </button>
+
+                            <p class="form-note">
+                                * Campos obrigatórios | Resposta garantida em 24h úteis
+                            </p>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Call to Action Final -->
+            <div class="contact-cta">
+                <div class="cta-content">
+                    <h3>Pronto para transformar seus dados em insights?</h3>
+                    <p>Vamos conversar sobre como posso ajudar sua empresa a tomar decisões baseadas em dados</p>
+                    <div class="cta-buttons">
+                        <a href="mailto:brunnop407@gmail.com" class="btn btn-primary">
+                            <i class="fas fa-envelope"></i>
+                            Email Direto
+                        </a>
+                        <a href="https://wa.me/5561996798513" target="_blank" class="btn btn-secondary">
+                            <i class="fab fa-whatsapp"></i>
+                            WhatsApp
+                        </a>
+                        <a href="https://www.linkedin.com/in/brunno-pereira-22a3771bb" target="_blank" class="btn btn-outline">
+                            <i class="fab fa-linkedin"></i>
+                            LinkedIn
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/brunno-pereira-22a3771bb" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://github.com/brunnogod/data-portfolio.git" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="mailto:brunnop407@gmail.com">
+                    <i class="fas fa-envelope"></i>
+                </a>
+            </div>
+            <p>&copy; 2025 Brunno Pereira. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
